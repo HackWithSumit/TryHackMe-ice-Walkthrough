@@ -1,6 +1,9 @@
 # TryHackMe-ice-Walkthrough
 Deploy &amp; hack into a Windows machine, exploiting a very poorly secured media server.
 
+![ice bg](https://user-images.githubusercontent.com/120317751/230588239-c2b3596b-8fb5-460c-8556-2e9f9d72a5ae.png)
+
+
 ![ice](https://user-images.githubusercontent.com/120317751/230573629-a0156837-a602-42ed-ac27-d7dccee48dcc.jpg)
 
 
