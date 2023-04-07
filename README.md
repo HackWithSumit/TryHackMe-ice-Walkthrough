@@ -52,7 +52,14 @@ Launch a scan against our target machine, I recommend using a SYN scan set to sc
 Once the scan completes, we'll see a number of interesting ports open on this machine. As you might have guessed, the firewall has been disabled (with the service completely shutdown), leaving very little to protect this machine. One of the more interesting ports that is open is Microsoft Remote Desktop (MSRDP). What port is this open on?
 
            3389
+           
+Command: (Your Start Machine IP)
 
+           sudo nmap -sT -sV -O -Pn 10.10.254.30 
+           
+           
+
+![Screenshot from 2023-04-07 15-30-12](https://user-images.githubusercontent.com/120317751/230589653-59731a6c-d70d-4845-ba58-e52761203d58.png)
 
 
 
