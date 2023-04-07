@@ -6,7 +6,14 @@ Deploy &amp; hack into a Windows machine, exploiting a very poorly secured media
 
 <br>
 
-Task 1: Connect
+Download VPN File from Release Section :
+
+Link: 
+ 
+ 
+ 🔴 Important : 
+
+<b>Task 1: Connect</b>
 
 Click on Access Machine --> Click on OpenVPN
 
