@@ -28,7 +28,7 @@ Click on Access Machine --> Click on OpenVPN (How to connect & config VPN)
 
 <br>
 
-<b><H2>Recon</b></H2>
+<b><H2>Task 2 Recon</b></H2>
 
 
 
@@ -42,25 +42,37 @@ Answer the questions below -----------------------------------------------------
 
 Deploy the machine! This may take up to three minutes to start.
 
-         No answer needed
+     No answer needed
          
 Launch a scan against our target machine, I recommend using a SYN scan set to scan all ports on the machine. The scan command will be provided as a hint, however, it's recommended to complete the room 'Nmap' prior to this room.  
 
-         No answer needed
+     No answer needed
          
 
 Once the scan completes, we'll see a number of interesting ports open on this machine. As you might have guessed, the firewall has been disabled (with the service completely shutdown), leaving very little to protect this machine. One of the more interesting ports that is open is Microsoft Remote Desktop (MSRDP). What port is this open on?
 
-           3389
+     3389
            
 Command: (Your Start Machine IP)
 
-           sudo nmap -sT -sV -O -Pn 10.10.254.30 
+    sudo nmap -sT -sV -O -Pn 10.10.254.30 
            
            
 
 ![Screenshot from 2023-04-07 15-30-12](https://user-images.githubusercontent.com/120317751/230589653-59731a6c-d70d-4845-ba58-e52761203d58.png)
 
+
+What service did nmap identify as running on port 8000? (First word of this service)
+
+     Icecast
+     
+
+What does Nmap identify as the hostname of the machine? (All caps for the answer)
+
+     DARK-PC
+     
+     
+<b><H2>Task 3 Gain Access</b></H2>   
 
 
 
