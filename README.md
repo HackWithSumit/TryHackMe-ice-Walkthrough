@@ -14,8 +14,11 @@ Link: https://github.com/Sumit-CyberSecurity/TryHackMe-ice-Walkthrough/releases/
  🔴 Important :  Please rename this VPN file as per your TryHackMe account username
 
 <b>Task 1: Connect</b>
+<br>
+<br>
 
 Click on Access Machine --> Click on OpenVPN (How to connect & config VPN)
+
 
 
 ![ice (1)-min](https://user-images.githubusercontent.com/120317751/230582828-2ae90b78-e403-45c7-a745-8c99c66e4f57.gif)
@@ -37,6 +40,15 @@ Answer the questions below -----------------------------------------------------
 Deploy the machine! This may take up to three minutes to start.
 
          No answer needed
+         
+Launch a scan against our target machine, I recommend using a SYN scan set to scan all ports on the machine. The scan command will be provided as a hint, however, it's recommended to complete the room 'Nmap' prior to this room.  
+
+         No answer needed
+         
+
+Once the scan completes, we'll see a number of interesting ports open on this machine. As you might have guessed, the firewall has been disabled (with the service completely shutdown), leaving very little to protect this machine. One of the more interesting ports that is open is Microsoft Remote Desktop (MSRDP). What port is this open on?
+
+           3389
 
 
 
