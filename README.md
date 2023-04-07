@@ -74,8 +74,45 @@ What does Nmap identify as the hostname of the machine? (All caps for the answer
      
 <b><H2>Task 3 Gain Access</b></H2>   
 
+![Screenshot from 2023-04-08 00-02-27](https://user-images.githubusercontent.com/120317751/230659913-1bd61fde-2956-4235-bccd-54edef6b37ac.png)
 
 
+Exploit the target vulnerable service to gain a foothold!
+
+Answer the questions below ----------------------------------------------------------------------------------------------------------------------------------------
+
+
+Now that we've identified some interesting services running on our target machine, let's do a little bit of research into one of the weirder services identified: Icecast. Icecast, or well at least this version running on our target, is heavily flawed and has a high level vulnerability with a score of 7.5 (7.4 depending on where you view it). What type of vulnerability is it? Use https://www.cvedetails.com for this question and the next.
+
+     execute code overflow
+     
+
+What is the CVE number for this vulnerability? This will be in the format: CVE-0000-0000
+
+      CVE-2004-1561
+      
+Now that we've found our vulnerability, let's find our exploit. For this section of the room, we'll use the Metasploit module associated with this exploit. Let's go ahead and start Metasploit using the command `msfconsole`      
+
+       No answer needed
+
+
+After Metasploit has started, let's search for our target exploit using the command 'search icecast'. What is the full path (starting with exploit) for the exploitation module? This module is also referenced in 'RP: Metasploit' which is recommended to be completed prior to this room, although not entirely necessary. 
+
+      exploit/windows/http/icecast_header
+      
+
+Let's go ahead and select this module for use. Type either the command `use icecast` or `use 0` to select our search result.
+
+        No answer needed
+        
+Following selecting our module, we now have to check what options we have to set. Run the command `show options`. What is the only required setting which currently is blank?
+
+         rhosts
+         
+
+First let's check that the LHOST option is set to our tun0 IP (which can be found on the access page). With that done, let's set that last option to our target IP. Now that we have everything ready to go, let's run our exploit using the command `exploit`
+
+         No answer needed
 
 
 
