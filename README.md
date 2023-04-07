@@ -6,9 +6,9 @@ Deploy &amp; hack into a Windows machine, exploiting a very poorly secured media
 
 <br>
 
-Download VPN File from Release Section :
+<h2>Download VPN File from Release Section :</h2>
 
-Link: 
+Link: https://github.com/Sumit-CyberSecurity/TryHackMe-ice-Walkthrough/releases/download/ice/sumit5011.ovpn
  
  
  🔴 Important : 
