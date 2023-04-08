@@ -65,6 +65,18 @@ What service did nmap identify as running on port 8000? (First word of this serv
 
      Icecast
      
+![Screenshot from 2023-04-08 22-48-33](https://user-images.githubusercontent.com/120317751/230734526-6883e1b8-d151-4b32-8318-144fd4a2b393.png)
+
+
+Exploit 8000/tcp with Below command
+ 
+     sudo nmap -sT -sV -O -Pn -p 8000 10.10.95.145
+     
+Output:
+
+![Screenshot from 2023-04-08 22-53-56](https://user-images.githubusercontent.com/120317751/230734733-2672c950-e305-45ce-b63e-515319b35015.png)
+
+
 
 What does Nmap identify as the hostname of the machine? (All caps for the answer)
 
