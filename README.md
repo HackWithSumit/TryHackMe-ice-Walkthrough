@@ -82,7 +82,25 @@ What does Nmap identify as the hostname of the machine? (All caps for the answer
 
      DARK-PC
      
-     
+Open Metasploit:
+
+    msfconsole
+    
+![Screenshot from 2023-04-08 23-03-03](https://user-images.githubusercontent.com/120317751/230735200-56faf365-2ce7-4982-a982-51e36e574838.png)
+
+        Search icecast
+        
+        
+![Screenshot from 2023-04-08 23-07-42](https://user-images.githubusercontent.com/120317751/230735337-c5ede574-4dd4-41d9-888c-8cea76a72edc.png)
+
+
+        use exploit/windows/http/icecast_header
+  
+
+![Screenshot from 2023-04-08 23-07-42](https://user-images.githubusercontent.com/120317751/230735593-68a0f040-4ab9-46b3-9bc8-70887c84b3a6.png)
+
+
+ 
 <b><H2>Task 3 Gain Access</b></H2>   
 
 ![Screenshot from 2023-04-08 00-02-27](https://user-images.githubusercontent.com/120317751/230659913-1bd61fde-2956-4235-bccd-54edef6b37ac.png)
@@ -118,7 +136,8 @@ Let's go ahead and select this module for use. Type either the command `use icec
         
 Following selecting our module, we now have to check what options we have to set. Run the command `show options`. What is the only required setting which currently is blank?
 
-         rhosts
+         rhosts![Screenshot from 2023-04-08 23-03-03](https://user-images.githubusercontent.com/120317751/230735096-832b811d-884a-438f-98f8-6f815ab5a593.png)
+
          
 
 First let's check that the LHOST option is set to our tun0 IP (which can be found on the access page). With that done, let's set that last option to our target IP. Now that we have everything ready to go, let's run our exploit using the command `exploit`
