@@ -18,7 +18,6 @@ Link: https://github.com/Sumit-CyberSecurity/TryHackMe-ice-Walkthrough/releases/
 
 <b><H2>Task 1 Connect</b></H2>
 <br>
-<br>
 
 Click on Access Machine --> Click on OpenVPN (How to connect & config VPN)
 
