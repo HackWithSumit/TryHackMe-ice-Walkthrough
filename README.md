@@ -16,7 +16,7 @@ Link: https://github.com/Sumit-CyberSecurity/TryHackMe-ice-Walkthrough/releases/
  
  🔴 Important :  Please rename this VPN file as per your TryHackMe account username
 
-<b>Task 1: Connect</b>
+<b><H2>Task 1 Connect</b></H2>
 <br>
 <br>
 
