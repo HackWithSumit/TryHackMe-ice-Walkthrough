@@ -171,7 +171,7 @@ Let's go ahead and select this module for use. Type either the command `use icec
         
 Following selecting our module, we now have to check what options we have to set. Run the command `show options`. What is the only required setting which currently is blank?
 
-         rhosts![Screenshot from 2023-04-08 23-03-03](https://user-images.githubusercontent.com/120317751/230735096-832b811d-884a-438f-98f8-6f815ab5a593.png)
+         rhosts
 
          
 
