@@ -150,6 +150,16 @@ Now that we've identified some interesting services running on our target machin
 
      execute code overflow
      
+Visit https://www.cvedetails.com & search icecast
+
+
+![Screenshot from 2023-04-09 00-19-50](https://user-images.githubusercontent.com/120317751/230738074-de13e842-9a17-4f52-9b66-951e8aec4379.png)
+
+Choose Icecast : Security vulnerabilities
+
+![Screenshot from 2023-04-09 00-26-34](https://user-images.githubusercontent.com/120317751/230738308-b5f9fa4d-955d-401b-b261-374f8acdad77.png)
+
+     
 
 What is the CVE number for this vulnerability? This will be in the format: CVE-0000-0000
 
