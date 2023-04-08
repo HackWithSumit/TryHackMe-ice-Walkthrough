@@ -121,6 +121,18 @@ Open Metasploit:
           
 ![Screenshot from 2023-04-08 23-29-47](https://user-images.githubusercontent.com/120317751/230736204-cb2c9eb3-8e8a-4399-aec3-5580e8aaf839.png)
 
+Type sysinfo after get meterpreter session   
+   
+        meterpreter > sysinfo 
+        
+![Screenshot from 2023-04-08 23-35-41](https://user-images.githubusercontent.com/120317751/230736425-e7fdc379-ff1c-4525-ad50-b3ed2b8fc467.png)
+
+
+Finally get Hostname
+
+
+![Screenshot from 2023-04-08 23-36-46](https://user-images.githubusercontent.com/120317751/230736452-303fb127-221c-4bb0-9885-d35c3bf7f5bf.png)
+
 
 
  
